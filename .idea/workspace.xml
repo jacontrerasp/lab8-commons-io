@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e5c8ae9-da18-41c7-8408-ca38af7a34e1" name="Default" comment="" />
+    <list default="true" id="8e5c8ae9-da18-41c7-8408-ca38af7a34e1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="commons-io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,8 +56,8 @@
       <file leaf-file-name="AndFileFilterTestCase.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/commons/io/filefilter/AndFileFilterTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12562814">
-              <caret line="21" column="43" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.10084034">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#1852#1853#0" expanded="true" />
                 <element signature="e#1888#1889#0" expanded="true" />
@@ -127,6 +129,11 @@
       <MavenGeneralSettings>
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="NamedScopeManager">
@@ -913,6 +920,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
@@ -930,12 +943,12 @@
       <option name="number" value="Default" />
       <updated>1436489854956</updated>
       <workItem from="1436489858399" duration="1121000" />
-      <workItem from="1436498337646" duration="870000" />
+      <workItem from="1436498337646" duration="1011000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1991000" />
+    <option name="totallyTimeSpent" value="2132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="741" extended-state="6" />
@@ -1057,8 +1070,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
           <folding>
-            <element signature="e#3838#3839#0" expanded="true" />
-            <element signature="e#3872#3873#0" expanded="true" />
+            <element signature="e#3838#3839#0" expanded="false" />
+            <element signature="e#3872#3873#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1092,8 +1105,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
           <folding>
-            <element signature="e#3838#3839#0" expanded="true" />
-            <element signature="e#3872#3873#0" expanded="true" />
+            <element signature="e#3838#3839#0" expanded="false" />
+            <element signature="e#3872#3873#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1183,8 +1196,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/commons/io/filefilter/AndFileFilterTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12562814">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.10084034">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#1852#1853#0" expanded="true" />
             <element signature="e#1888#1889#0" expanded="true" />
