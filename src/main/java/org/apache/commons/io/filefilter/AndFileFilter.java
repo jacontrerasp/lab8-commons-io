@@ -48,7 +48,7 @@ public class AndFileFilter
      *
      * @since 1.1
      */
-    public AndFileFilter() {
+    protected AndFileFilter() {
         this.fileFilters = new ArrayList<IOFileFilter>();
     }
 
@@ -59,7 +59,7 @@ public class AndFileFilter
      * @param fileFilters  a List of IOFileFilter instances, copied, null ignored
      * @since 1.1
      */
-    public AndFileFilter(final List<IOFileFilter> fileFilters) {
+    protected AndFileFilter(final List<IOFileFilter> fileFilters) {
         if (fileFilters == null) {
             this.fileFilters = new ArrayList<IOFileFilter>();
         } else {
@@ -74,7 +74,7 @@ public class AndFileFilter
      * @param filter2  the second filter, must not be null
      * @throws IllegalArgumentException if either filter is null
      */
-    public AndFileFilter(final IOFileFilter filter1, final IOFileFilter filter2) {
+    protected AndFileFilter(final IOFileFilter filter1, final IOFileFilter filter2) {
         if (filter1 == null || filter2 == null) {
             throw new IllegalArgumentException("The filters must not be null");
         }

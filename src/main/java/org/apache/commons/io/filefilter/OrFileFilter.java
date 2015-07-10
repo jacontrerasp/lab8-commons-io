@@ -46,7 +46,7 @@ public class OrFileFilter
      *
      * @since 1.1
      */
-    public OrFileFilter() {
+    protected OrFileFilter() {
         this.fileFilters = new ArrayList<IOFileFilter>();
     }
 
@@ -57,7 +57,7 @@ public class OrFileFilter
      * @param fileFilters  the file filters for this filter, copied, null ignored
      * @since 1.1
      */
-    public OrFileFilter(final List<IOFileFilter> fileFilters) {
+    protected OrFileFilter(final List<IOFileFilter> fileFilters) {
         if (fileFilters == null) {
             this.fileFilters = new ArrayList<IOFileFilter>();
         } else {
