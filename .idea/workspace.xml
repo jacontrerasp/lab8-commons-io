@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8e5c8ae9-da18-41c7-8408-ca38af7a34e1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/comparator/AbstractFileComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/AbstractFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/monitor/AbstractMonitorTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/AgeFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/AndFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/filefilter/AndFileFilterTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/AppendableOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/AppendableOutputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/AutoCloseInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/AutoCloseInputStreamTest$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/AutoCloseInputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/BOMInputStream$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/BOMInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/BOMInputStreamTest$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/BOMInputStreamTest$ExpectCloseInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/BOMInputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/BoundedInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/BoundedInputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/BoundedReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/BoundedReaderTest$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/BoundedReaderTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/BrokenInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/BrokenInputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/BrokenOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/BrokenOutputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/ByteArrayOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ByteArrayOutputStreamTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/ByteOrderMark.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/ByteOrderMarkTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/CanReadFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/CanWriteFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/CharSequenceInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/CharSequenceInputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/CharSequenceReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/CharSequenceReaderTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/Charsets.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/CharsetsTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/ChunkedOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ChunkedOutputStreamTest$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ChunkedOutputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/ChunkedWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ChunkedWriterTest$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ChunkedWriterTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/ClassLoaderObjectInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/ClassLoaderObjectInputStreamTest$E.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/ClassLoaderObjectInputStreamTest$Test.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/ClassLoaderObjectInputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/CloseShieldInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/CloseShieldInputStreamTest$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/CloseShieldInputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/CloseShieldOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/CloseShieldOutputStreamTest$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/CloseShieldOutputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/ClosedInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/ClosedInputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/ClosedOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ClosedOutputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/monitor/CollectionFileListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/comparator/ComparatorAbstractTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/comparator/CompositeFileComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/comparator/CompositeFileComparatorTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/ConditionalFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/filefilter/ConditionalFileFilterAbstractTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/CopyUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/CopyUtilsTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/CountingInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/CountingInputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/CountingOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/CountingOutputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/comparator/DefaultFileComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/comparator/DefaultFileComparatorTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/DeferredFileOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/DeferredFileOutputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/DelegateFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/DemuxInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/DemuxOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/DemuxTestCase$ReaderThread.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/DemuxTestCase$WriterThread.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/DemuxTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/comparator/DirectoryFileComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/comparator/DirectoryFileComparatorTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/DirectoryFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/DirectoryWalker$CancelException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/DirectoryWalker.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/DirectoryWalkerTestCase$TestCancelWalker.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/DirectoryWalkerTestCase$TestFalseFileFinder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/DirectoryWalkerTestCase$TestFileFinder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/DirectoryWalkerTestCase$TestFileFinderString.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/DirectoryWalkerTestCase$TestMultiThreadCancelWalker.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/DirectoryWalkerTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/DirectoryWalkerTestCaseJava4$TestCancelWalker.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/DirectoryWalkerTestCaseJava4$TestFalseFileFinder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/DirectoryWalkerTestCaseJava4$TestFileFinder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/DirectoryWalkerTestCaseJava4$TestMultiThreadCancelWalker.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/DirectoryWalkerTestCaseJava4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/EmptyFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/EndianUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/EndianUtilsTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/comparator/ExtensionFileComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/comparator/ExtensionFileComparatorTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/FalseFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/monitor/FileAlterationListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/monitor/FileAlterationListenerAdaptor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/monitor/FileAlterationMonitor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/monitor/FileAlterationMonitorTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/monitor/FileAlterationObserver.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/monitor/FileAlterationObserverTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/testtools/FileBasedTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/FileCleaner.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileCleanerTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/FileCleaningTracker$Reaper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/FileCleaningTracker$Tracker.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/FileCleaningTracker.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileCleaningTrackerTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/FileDeleteStrategy$ForceFileDeleteStrategy.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/FileDeleteStrategy.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileDeleteStrategyTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/monitor/FileEntry.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/FileExistsException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/FileFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/filefilter/FileFilterTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/FileFilterUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/FileSystemUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileSystemUtilsTestCase$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileSystemUtilsTestCase$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileSystemUtilsTestCase$MockFileSystemUtils$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileSystemUtilsTestCase$MockFileSystemUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileSystemUtilsTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/FileUtils$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/FileUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileUtilsCleanDirectoryTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileUtilsCleanSymlinksTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileUtilsDirectoryContainsTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileUtilsFileNewerTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileUtilsListFilesTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileUtilsTestCase$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileUtilsTestCase$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileUtilsTestCase$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileUtilsTestCase$ListDirectoryWalker.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileUtilsTestCase$ShorterFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileUtilsTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileUtilsWaitForTestCase$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileUtilsWaitForTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/FileWriterWithEncoding.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/FileWriterWithEncodingTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/FilenameUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FilenameUtilsTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FilenameUtilsWildcardTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/HexDump.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/HexDumpTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/HiddenFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/IOCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOCaseTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/IOExceptionWithCause.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOExceptionWithCauseTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/IOFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/filefilter/IOFileFilterAbstractTestCase$TesterFalseFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/filefilter/IOFileFilterAbstractTestCase$TesterTrueFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/filefilter/IOFileFilterAbstractTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/IOUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOUtilsCopyTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOUtilsTestCase$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOUtilsTestCase$10.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOUtilsTestCase$11.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOUtilsTestCase$12.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOUtilsTestCase$13.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOUtilsTestCase$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOUtilsTestCase$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOUtilsTestCase$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOUtilsTestCase$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOUtilsTestCase$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOUtilsTestCase$7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOUtilsTestCase$8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOUtilsTestCase$9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOUtilsTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/IOUtilsWriteTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/Java7Support.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/Java7SupportTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/comparator/LastModifiedFileComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/comparator/LastModifiedFileComparatorTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/LineIterator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/LineIteratorTestCase$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/LineIteratorTestCase$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/LineIteratorTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/LockableFileWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/LockableFileWriterTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/MagicNumberFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/comparator/NameFileComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/comparator/NameFileComparatorTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/NameFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/NotFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/NullInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/NullInputStreamTest$TestNullInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/NullInputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/NullOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/NullOutputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/NullReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/NullReaderTest$TestNullReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/NullReaderTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/NullWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/NullWriterTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/OrFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/filefilter/OrFileFilterTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/comparator/PathFileComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/comparator/PathFileComparatorTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/PrefixFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/ProxyInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/ProxyOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ProxyOutputStreamTest$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ProxyOutputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/ProxyReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/ProxyReaderTest$CustomNullReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/ProxyReaderTest$ProxyReaderImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/ProxyReaderTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/ProxyWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ProxyWriterTest$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ProxyWriterTest$10.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ProxyWriterTest$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ProxyWriterTest$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ProxyWriterTest$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ProxyWriterTest$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ProxyWriterTest$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ProxyWriterTest$7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ProxyWriterTest$8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ProxyWriterTest$9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ProxyWriterTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/ReaderInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/ReaderInputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/RegexFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/filefilter/RegexFileFilterTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/comparator/ReverseComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/ReversedLinesFileReader$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/ReversedLinesFileReader$FilePart.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/ReversedLinesFileReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/SelectorAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/comparator/SizeFileComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/comparator/SizeFileComparatorTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/SizeFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/StringBuilderWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/StringBuilderWriterTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/SuffixFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/SwappedDataInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/SwappedDataInputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/TaggedIOException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/TaggedIOExceptionTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/TaggedInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/TaggedInputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/TaggedOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/TaggedOutputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/Tailer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/TailerListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/TailerListenerAdapter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/TailerTest$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/TailerTest$TestTailerListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/TailerTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/TeeInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/TeeInputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/TeeOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/TeeOutputStreamTest$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/TeeOutputStreamTest$ExceptionOnCloseByteArrayOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/TeeOutputStreamTest$RecordCloseByteArrayOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/TeeOutputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/ThreadMonitor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/ThreadMonitorTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/ThresholdingOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ThresholdingOutputStreamTest$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/ThresholdingOutputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/TrueFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/UnixLineEndingInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/UnixLineEndingInputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/WildcardFileFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/filefilter/WildcardFilter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/WindowsLineEndingInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/WindowsLineEndingInputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/WriterOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/WriterOutputStreamTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/XmlStreamReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/compatibility/XmlStreamReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/input/XmlStreamReaderException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/compatibility/XmlStreamReaderException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/XmlStreamReaderTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/compatibility/XmlStreamReaderUtilitiesCompatibilityTest$MockXmlStreamReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/compatibility/XmlStreamReaderUtilitiesCompatibilityTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/XmlStreamReaderUtilitiesTest$MockXmlStreamReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/input/XmlStreamReaderUtilitiesTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/org/apache/commons/io/output/XmlStreamWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/output/XmlStreamWriterTest.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/testtools/YellOnCloseInputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/testtools/YellOnFlushAndCloseOutputStream.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test-file-empty.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test-file-gbk.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test-file-iso8859-1.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test-file-shiftjis.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test-file-utf16be.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test-file-utf16le.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test-file-windows-31j.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test-file-x-windows-949.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test-file-x-windows-950.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileUtilsTestDataCR.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileUtilsTestDataCRLF.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/FileUtilsTestDataLF.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/META-INF/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/META-INF/NOTICE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/NOTICE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/commons-io.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test-file-20byteslength.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test-file-iso8859-1-shortlines-win-linebr.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test-file-utf8-cr-only.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test-file-utf8-win-linebr.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test-file-utf8.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/testfileBOM.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/org/apache/commons/io/testfileNoBOM.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/apache/commons/io/input/XmlStreamReaderException.java" afterPath="$PROJECT_DIR$/src/main/java/org/apache/commons/io/input/XmlStreamReaderException.java" />
+    </list>
+    <ignored path="commons-io.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="commons-io" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ByteOrderMark.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/commons/io/ByteOrderMark.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CopyUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/commons/io/CopyUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="112" column="13" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XmlStreamReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/commons/io/input/XmlStreamReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="642" column="18" selection-start-line="642" selection-start-column="18" selection-end-line="642" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XmlStreamReader.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/commons/io/input/compatibility/XmlStreamReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.19327731">
+              <caret line="383" column="55" selection-start-line="383" selection-start-column="55" selection-end-line="383" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XmlStreamReaderException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/commons/io/input/XmlStreamReaderException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
+              <folding>
+                <element signature="e#3838#3839#0" expanded="true" />
+                <element signature="e#3872#3873#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/apache/commons/io/input/XmlStreamReaderException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/apache/commons/io/input/compatibility/XmlStreamReader.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1366" />
+    <option name="height" value="741" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="output" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="monitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="input" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filefilter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comparator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commons-io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e5c8ae9-da18-41c7-8408-ca38af7a34e1" name="Default" comment="" />
+      <created>1436489854956</created>
+      <option name="number" value="Default" />
+      <updated>1436489854956</updated>
+      <workItem from="1436489858399" duration="710000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="710000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/commons/io/ByteOrderMark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/commons/io/CopyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="112" column="13" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/commons/io/input/XmlStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="642" column="18" selection-start-line="642" selection-start-column="18" selection-end-line="642" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/apache/commons/io/input/XmlStreamReaderException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="109" column="18" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
+          <folding>
+            <element signature="e#3838#3839#0" expanded="true" />
+            <element signature="e#3872#3873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/apache/commons/io/input/compatibility/XmlStreamReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19327731">
+          <caret line="383" column="55" selection-start-line="383" selection-start-column="55" selection-end-line="383" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
